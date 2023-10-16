@@ -6,12 +6,12 @@ function existePez(listaPeces, pezBuscado) {
   let pezEncontrado = false;
   let i = 0;
 
-  while (!pezEncontrado && i < listaPeces.length - 1) {
+  while (!pezEncontrado && i < listaPeces.length) {
     pezEncontrado = listaPeces[i] == pezBuscado;
     i++;
   }
 
-  return pezEncontrado;
+   return pezEncontrado;
 }
 
 let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"];
